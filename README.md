@@ -124,7 +124,7 @@ $ uv run scripts/train-mvtst-ptbxl_form1d.sh
 The following pytorch pretrained models used in our paper are
 available:
 
- - [SSL-pretrained checkpoint](https://huggingface.co/4dm-labs/1dvit_base_patch50_5000.ssl_mimic)
+ - [SSL-pretrained checkpoint](https://huggingface.co/vlmurthylab/1dvit_base_patch50_5000.ssl_mimic)
    
  - The SSL-pretrained model fine-tuned for three multi-label tasks
    (see [PTB-XL, a large publicly available electrocardiography
@@ -132,16 +132,16 @@ available:
    [Deep learning for ECG analysis: benchmarks and insights from
    PTB-XL](https://arxiv.org/abs/2004.13701)):
 
-   - [Prediction of Diagnostic labels (SSL)](https://huggingface.co/4dm-labs/1dvit_base_patch50_5000.ssl_mimic_ft_ptbxl-diag)
+   - [Prediction of Diagnostic labels (SSL)](https://huggingface.co/vlmurthylab/1dvit_base_patch50_5000.ssl_mimic_ft_ptbxl-diag)
 
-   - [Prediction of Rhythm labels (SSL)](https://huggingface.co/4dm-labs/1dvit_base_patch50_5000.ssl_mimic_ft_ptbxl-rhythm)
+   - [Prediction of Rhythm labels (SSL)](https://huggingface.co/vlmurthylab/1dvit_base_patch50_5000.ssl_mimic_ft_ptbxl-rhythm)
 
-   - [Prediction of Form labels (SSL)](https://huggingface.co/4dm-labs/1dvit_base_patch50_5000.ssl_mimic_ft_ptbxl-form)
+   - [Prediction of Form labels (SSL)](https://huggingface.co/vlmurthylab/1dvit_base_patch50_5000.ssl_mimic_ft_ptbxl-form)
 
  - The same 1dViT architecture trained de novo from random initialization for the same three multi-label tasks:
  
-   - [Prediction of Diagnostic labels (de novo)](https://huggingface.co/4dm-labs/1dvit_base_patch50_5000.ptbxl-diag)
+   - [Prediction of Diagnostic labels (de novo)](https://huggingface.co/vlmurthylab/1dvit_base_patch50_5000.ptbxl-diag)
 
-   - [Prediction of Rhythm labels (de novo)](https://huggingface.co/4dm-labs/1dvit_base_patch50_5000.ptbxl-rhythm)
+   - [Prediction of Rhythm labels (de novo)](https://huggingface.co/vlmurthylab/1dvit_base_patch50_5000.ptbxl-rhythm)
 
-   - [Prediction of Form labels (de novo)](https://huggingface.co/4dm-labs/1dvit_base_patch50_5000.ptbxl-form)
+   - [Prediction of Form labels (de novo)](https://huggingface.co/vlmurthylab/1dvit_base_patch50_5000.ptbxl-form)
