@@ -14,7 +14,7 @@ NVIDIA CUDA specific speedups adopted from NVIDIA Apex examples
 
 Hacked together by / Copyright 2020 Ross Wightman (https://github.com/rwightman)
 
-Modified for ECGFlow (https://github.com/4dm-labs/ecgflow)
+Modified for ECGFlow (https://github.com/vlmurthylab/ecgflow)
 """
 import argparse
 import json
@@ -445,7 +445,7 @@ def main():
     else:
         _logger.info(f'Training with a single process on 1 device ({args.device}).')
     if args.ssl:
-        assert args.model.startswith('mtsm_'), 'SSL only supports "mtsm" architecture currently (see https://github.com/4dm-labs/ecgflow)'
+        assert args.model.startswith('mtsm_'), 'SSL only supports "mtsm" architecture currently (see https://github.com/vlmurthylab/ecgflow)'
         _logger.info('Self-supervised training mode enabled.')
         args.eval_metric = 'loss'
     assert args.rank >= 0

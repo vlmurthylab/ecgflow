@@ -22,7 +22,7 @@ Our implementation uses code based on [Python Image Models
 v0.9.14dev0](https://github.com/huggingface/pytorch-image-models) with
 additions to support ECG data and self-supervised learning (SSL).
 Our modified Pytorch Image Models can be found
-[here](https://github.com/4dm-labs/pytorch-image-models-ecgflow).
+[here](https://github.com/vlmurthylab/pytorch-image-models-ecgflow).
 Note that use of ECG data input with models other than Vision Transformer has not been fully tested and may not work.
 
 ECGFlow uses an SSL implementation based on code from
@@ -45,13 +45,13 @@ using the publicly available [PTB-XL dataset](https://physionet.org/content/ptb-
 
  1. Clone this repo
  ```
-$ git clone https://github.com/4dm-labs/ecgflow
+$ git clone https://github.com/vlmurthylab/ecgflow
 ```
 
  3. Clone our modified python-image-models-ecgflow repo
     (ensure both repos are located in a common parent directory) 
  ```
-$ git clone https://github.com/4dm-labs/pytorch-image-models-ecgflow
+$ git clone https://github.com/vlmurthylab/pytorch-image-models-ecgflow
 ```
 
  4. Install the astral `uv` tool
