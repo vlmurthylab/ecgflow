@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use ECGFlow, please cite the NEJM AI article below."
+title: "ECGFlow: a foundation model for ECG-based assessment of cardiac and coronary function"
+type: software
+version: "1.0.0"
+license: Apache-2.0
+repository-code: "https://github.com/vlmurthylab/ecgflow"
+keywords:
+  - ecg
+  - foundation-model
+  - self-supervised-learning
+  - vision-transformer
+  - cardiology
+authors: &authors
+  - family-names: Moody
+    given-names: Jonathan B.
+  - family-names: Poitrasson-Rivière
+    given-names: Alexis
+  - family-names: Renaud
+    given-names: Jennifer M.
+  - family-names: Hagio
+    given-names: Tomoe
+  - family-names: Alahdab
+    given-names: Fares
+  - family-names: Al-Mallah
+    given-names: Mouaz H.
+  - family-names: Vanderver
+    given-names: Michael D.
+  - family-names: Goonewardena
+    given-names: Sascha N.
+  - family-names: Ficaro
+    given-names: Edward P.
+  - family-names: Murthy
+    given-names: Venkatesh L.
+    orcid: "https://orcid.org/0000-0002-7901-1321"
+preferred-citation:
+  type: article
+  title: "A Foundation Transformer Model with Self-Supervised Learning for ECG-Based Assessment of Cardiac and Coronary Function"
+  authors: *authors
+  journal: "NEJM AI"
+  year: 2025
+  month: 11
+  volume: 2
+  issue: 12
+  start: AIoa2500164
+  doi: "10.1056/AIoa2500164"
