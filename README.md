@@ -43,8 +43,7 @@ using the publicly available [PTB-XL dataset](https://physionet.org/content/ptb-
 
 # Lab safeguards
 
-This repository uses the lab's shared safeguards from
-[vlmurthylab/project-template](https://github.com/vlmurthylab/project-template):
+This repository uses the lab's shared safeguards (from the lab's project template):
 the lab core `.gitignore` (this repository's own rules are in its **This repository**
 section), a PHI check that runs on every commit and on GitHub, and the rules for AI
 assistants in [`AGENTS.md`](AGENTS.md). Turn the check on once in each clone:
