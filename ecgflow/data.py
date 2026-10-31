@@ -361,7 +361,7 @@ class EcgPtbxlData(object):
     bandpass_freq : tuple [(0.01, 150)]
         pass band frequencies in Hz (defaults suggested from "GE Healthcare
         Marquette (tm) 12SL(tm) ECG Analysis Program Physician's Guide
-        2056246-002C")
+        2056246-002C")  (phi-ok: GE manual part number)
     recode_sex : bool [True]
         recode -> Female=0, Male=1
     """

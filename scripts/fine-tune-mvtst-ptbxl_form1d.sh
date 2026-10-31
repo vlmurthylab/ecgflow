@@ -7,7 +7,7 @@ DATAROOT=~/ecgflow/data/ptb-xl
 DATANAME=ptbxl_form
 EXPNAME=mvtst-p50-d12-h8.mimic-1
 MODELNAME=mvtst_base_patch50
-SEED=20241153
+SEED=20241153  # phi-ok: random seed
 $(dirname "$0")/train.py \
     --seed $SEED \
     --data-dir $DATAROOT \

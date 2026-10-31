@@ -41,6 +41,21 @@ This model is then fine-tuned for three ECG auto-interpretation tasks
 using the publicly available [PTB-XL dataset](https://physionet.org/content/ptb-xl/1.0.3/)
  and [PTB-XL benchmarks](https://www.nature.com/articles/s41597-020-0495-6).
 
+# Lab safeguards
+
+This repository uses the lab's shared safeguards (from the lab's project template):
+the lab core `.gitignore` (this repository's own rules are in its **This repository**
+section), a PHI check that runs on every commit and on GitHub, and the rules for AI
+assistants in [`AGENTS.md`](AGENTS.md). Turn the check on once in each clone:
+
+```bash
+git config core.hooksPath hooks
+```
+
+The check refuses data files, model weights, training runs (`experiments/`), secrets and
+text that looks like PHI. The PTB-XL results notebook is allowed with its outputs by exact
+path in `phi-guard.conf`; any other notebook is committed with outputs cleared.
+
 # Installation
 
  1. Clone this repo
