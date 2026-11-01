@@ -8,3 +8,7 @@ tools/*.pl text eol=lf
 # =============================================================================
 # This repository: additions (keep the reason next to each rule)
 # =============================================================================
+# GitHub's language bar: the PTB-XL results notebook (with its plots) is larger
+# than the Python package, so the repository showed as "Jupyter Notebook".
+# Leave notebooks out of the language statistics; nothing else changes.
+*.ipynb linguist-detectable=false
