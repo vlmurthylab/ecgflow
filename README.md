@@ -56,10 +56,14 @@ The check refuses data files, model weights, training runs (`experiments/`), sec
 text that looks like PHI. The PTB-XL results notebook is allowed with its outputs by exact
 path in `phi-guard.conf`; any other notebook is committed with outputs cleared.
 
-The Apache License 2.0 in [`LICENSE.txt`](LICENSE.txt) covers ECGFlow. It does not cover the
-lab's safeguard files, which are shared by every lab repository: `hooks/`, `tools/`,
-`phi-guard.conf`, `.github/workflows/phi-check.yml`, `AGENTS.md` and `CLAUDE.md`. No license
-is given for them.
+# License
+
+ECGFlow is licensed under the Apache License 2.0; see [`LICENSE.txt`](LICENSE.txt). The
+license does not cover the lab's safeguards. Those are the lab-core files, which are identical in every lab repository: `hooks/`, `tools/`,
+`.github/` (the PHI-check workflow and `CODEOWNERS`), `CLAUDE.md`, and the parts of
+`AGENTS.md`, `.gitignore` and `.gitattributes` above their **This project** or **This
+repository** sections. No license is given for them; ask the lab before reusing them.
+This repository's own parts (`phi-guard.conf` and those sections) are covered as usual.
 
 # Installation
 
