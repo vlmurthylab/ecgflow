@@ -60,3 +60,4 @@ At the start of a session, turn the hook on: `git config core.hooksPath hooks` (
 - **How to run:** `uv sync`, then the scripts in `scripts/` (README, "Running the scripts"); training runs on lab GPUs, not in an assistant session.
 - **Public repository:** everything committed here is published. Changes come from vlmurthylab/ecgflow-dev once reviewed there; anything copied over is checked again for internal paths, U-M data, and results from the lab's own models before it's committed.
 - **Status:** the public release, matching ecgflow-dev's code.
+- **Approved in advance for `phi-ok`:** none. (Only the PI adds kinds of line here, in a PR or issue.)
